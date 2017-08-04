@@ -8,7 +8,10 @@ import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
 public class demo1 {
-//***************************************java*****************************************8
+//***************************************java*****************************************
+	
+	
+	//***********************************demo****************************************
 	public static void main(String[] args) throws IOException {
 		// 从URL来获取内容，加载成Document对象
 		Document doc=Jsoup.connect("http://www.ujiuye.com").get();
