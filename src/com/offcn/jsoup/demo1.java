@@ -8,11 +8,11 @@ import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
 public class demo1 {
-
+//***************************************java*****************************************8
 	public static void main(String[] args) throws IOException {
-		// ´ÓURLÀ´»ñÈ¡ÄÚÈİ£¬¼ÓÔØ³ÉDocument¶ÔÏó
+		// ä»URLæ¥è·å–å†…å®¹ï¼ŒåŠ è½½æˆDocumentå¯¹è±¡
 		Document doc=Jsoup.connect("http://www.ujiuye.com").get();
-       //´Ódocument¶ÔÏóÀ´Ñ¡Ôñ¶ÔÓ¦µÄ½Úµã
+       //ä»documentå¯¹è±¡æ¥é€‰æ‹©å¯¹åº”çš„èŠ‚ç‚¹
 		Element  el1=doc.getElementsByClass("newYjy").first();
 		
 		Elements ela=el1.getElementsByTag("a");
